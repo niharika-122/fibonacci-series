@@ -1,0 +1,9 @@
+start=int(input("enter a number eith which you want to start"))
+end=int(input(:enter the number with which you want to end"))
+ 
+# iterating each number in list
+for num in range(start, end + 1):
+ 
+    # checking condition
+    if num >= 0:
+        print(num, end=" ")
